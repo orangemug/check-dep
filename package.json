@@ -3,7 +3,7 @@
   "description": "Check if a dependency exists and satisfies a semver",
   "version": "0.0.0",
   "scripts": {
-    "test": "mocha test/index.js"
+    "test": "node test/index.js"
   },
   "licenses": [
     {
@@ -16,7 +16,6 @@
     "semver": "^5.1.0"
   },
   "devDependencies": {
-    "mocha": "^2.4.5",
     "readme-tester": "orangemug/readme-tester"
   }
 }
