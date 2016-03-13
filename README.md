@@ -1,6 +1,16 @@
 # check-dep
 Check if a dependency exists and satisfies a semver
 
+[![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)][stability]
+[![circleci](https://circleci.com/gh/orangemug/check-dep.png?style=shield)][circleci]
+[![Dependency Status](https://david-dm.org/orangemug/check-dep.svg)][dm-prod]
+[![Dev Dependency Status](https://david-dm.org/orangemug/check-dep/dev-status.svg)][dm-dev]
+
+[stability]: https://github.com/orangemug/stability-badges#experimental
+[circleci]:  https://circleci.com/gh/orangemug/check-dep
+[dm-prod]:   https://david-dm.org/orangemug/check-dep
+[dm-dev]:    https://david-dm.org/orangemug/check-dep#info=devDependencies
+
 
 ## Install
 
