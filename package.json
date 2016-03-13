@@ -1,0 +1,21 @@
+{
+  "name": "check-dep",
+  "description": "Check if a dependency exists and satisfies a semver",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "pkg-up": "^1.0.0",
+    "semver": "^5.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
