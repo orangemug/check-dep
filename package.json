@@ -1,7 +1,7 @@
 {
   "name": "check-dep",
   "description": "Check if a dependency exists and satisfies a semver",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "test": "mocha test/index.js"
   },
