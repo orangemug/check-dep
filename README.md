@@ -12,6 +12,13 @@ Check if a dependency exists and satisfies a semver
 [dm-dev]:    https://david-dm.org/orangemug/check-dep#info=devDependencies
 
 
+## Why?
+You may want to include an optional dependencies, for example we could include [keytar](https://www.npmjs.com/package/keytar) optionally and only attempt to store passwords in the keychain if installed.
+
+You can see an example of that [here](https://github.com/orangemug/encrypt-conf/blob/d20f3aaf2738ec445363b8707daea225aeb4157a/lib/password-manager.js#L5-L7)
+
+
+
 ## Install
 
     npm install orangemug/check-dep
